@@ -1,9 +1,9 @@
-sails-stringfile
+blue-prod-stringfile
 ===================
 
-Localized stringfile containing messages used in Sails command-line interface and runtime.
+Localized stringfile containing messages used in blue-prod command-line interface and runtime.
 
-This project is an early-stage work in progress to make all strings used in Sails humanLanguageAgnostic.  That includes console messages, comments in generated code files, and even errors.  This is a big project, but just one small part of the effort towards making Sails more accessible to non-native English readers/speakers.
+This project is an early-stage work in progress to make all strings used in blue-prod humanLanguageAgnostic.  That includes console messages, comments in generated code files, and even errors.  This is a big project, but just one small part of the effort towards making blue-prod more accessible to non-native English readers/speakers.
 
 
 ## How This Module Works
@@ -15,8 +15,8 @@ This project is an early-stage work in progress to make all strings used in Sail
 
 
 ```javascript
-// From Sails core, an adapter, a generator, a hook, or some other dependency:
-var STRINGFILE = require('sails-stringfile');
+// From blue-prod core, an adapter, a generator, a hook, or some other dependency:
+var STRINGFILE = require('blue-prod-stringfile');
 
 // Internally, this module runs node's native `util.format()` method,
 // so you can also template strings:
@@ -72,4 +72,4 @@ Current language support _targets_ are:
 
 ## License
 
-MIT c. Mike McNeil 2014
+The [blue-prod framework](https://github.com/EMSA-TECHNOLOGY/blue-prod) is free and open-source under the [MIT License](https://github.com/EMSA-TECHNOLOGY/blue-prod-hook-sockets/blob/master/LICENSE.md).
